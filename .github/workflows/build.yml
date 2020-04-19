@@ -1,1 +1,2 @@
-# Automatically build the project and run any configured tests 
+# Automatically build the project and run any configured tests for every push
+# and submitted pull request. This ca
