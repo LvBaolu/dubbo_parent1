@@ -6,4 +6,8 @@
 name: build
 on: [pull_request, push]
 
-jo
+jobs:
+  build:
+    strategy:
+      matrix:
+        # Use the
