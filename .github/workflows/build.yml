@@ -20,3 +20,5 @@ jobs:
     steps:
       - name: checkout repository
         uses: actions/checkout@v3
+      - name: validate gradle wrapper
+        uses: gradle/
