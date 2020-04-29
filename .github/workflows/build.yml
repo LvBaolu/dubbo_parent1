@@ -18,4 +18,5 @@ jobs:
         os: [ubuntu-22.04, windows-2022]
     runs-on: ${{ matrix.os }}
     steps:
-      - name: chec
+      - name: checkout repository
+        uses: actions/checkout@v3
