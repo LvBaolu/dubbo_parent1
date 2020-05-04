@@ -29,4 +29,6 @@ jobs:
           distribution: 'microsoft'
       - name: make gradle wrapper executable
         if: ${{ runner.os != 'Windows' }}
-        run: 
+        run: chmod +x ./gradlew
+      - name: build
+        run: ./gradlew buil
