@@ -33,4 +33,4 @@ jobs:
       - name: build
         run: ./gradlew build
       - name: capture build artifacts
-        if: ${{ run
+        if: ${{ runner.os == 'Linux' && matrix.java == '17' }} # Only upload artifacts b
