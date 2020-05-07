@@ -31,4 +31,6 @@ jobs:
         if: ${{ runner.os != 'Windows' }}
         run: chmod +x ./gradlew
       - name: build
-        run: ./gradlew buil
+        run: ./gradlew build
+      - name: capture build artifacts
+        if: ${{ run
