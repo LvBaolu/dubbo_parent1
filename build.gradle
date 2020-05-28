@@ -6,4 +6,5 @@ plugins {
 sourceCompatibility = JavaVersion.VERSION_17
 targetCompatibility = JavaVersion.VERSION_17
 
-archivesBaseName =
+archivesBaseName = project.archives_base_name
+version = project.mod_versio
