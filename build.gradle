@@ -11,4 +11,9 @@ version = project.mod_version + "+mc" + project.minecraft_version
 group = project.maven_group
 
 loom {
-	accessWidenerPath = file("src/main/resou
+	accessWidenerPath = file("src/main/resources/emitrades.accesswidener")
+}
+
+repositories {
+	maven {
+		name =
