@@ -16,4 +16,7 @@ loom {
 
 repositories {
 	maven {
-		name =
+		name = "TerraformersMC"
+		url = "https://maven.terraformersmc.com/"
+	}
+   
