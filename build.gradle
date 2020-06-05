@@ -25,4 +25,10 @@ repositories {
     }
     maven {
         name = "Nova Committee - Snapshot"
-        url = "https://maven.nova-committee.cn/snapshots/
+        url = "https://maven.nova-committee.cn/snapshots/"
+    }
+    mavenCentral()
+}
+
+dependencies {
+	// To
