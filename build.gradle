@@ -23,4 +23,5 @@ repositories {
         name = "Nova Committee - Release"
         url = "https://maven.nova-committee.cn/releases/"
     }
-    m
+    maven {
+        name = "Nova Committee - Snaps
