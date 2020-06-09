@@ -33,4 +33,5 @@ repositories {
 dependencies {
 	// To change the versions see the gradle.properties file
 	minecraft "com.mojang:minecraft:${project.minecraft_version}"
-	m
+	mappings "net.fabricmc:yarn:${project.yarn_mappings}:v2"
+	
