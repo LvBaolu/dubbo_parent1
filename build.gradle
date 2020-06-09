@@ -32,4 +32,5 @@ repositories {
 
 dependencies {
 	// To change the versions see the gradle.properties file
-	minecra
+	minecraft "com.mojang:minecraft:${project.minecraft_version}"
+	m
