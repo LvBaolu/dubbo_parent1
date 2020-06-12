@@ -39,4 +39,5 @@ dependencies {
 	// Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"
 
-	// Uncomment the following line to enable the deprecated Fabric API module
+	// Uncomment the following line to enable the deprecated Fabric API modules. 
+	// These are included in the Fabric API productio
