@@ -46,4 +46,5 @@ dependencies {
 
 	modImplementation "dev.emi:emi:${project.emi_version}"
 
-    implementation include("io.github.prismw
+    implementation include("io.github.prismwork:prismconfig:0.1.1:all")
+    // implementation include("com
