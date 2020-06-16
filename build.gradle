@@ -47,4 +47,8 @@ dependencies {
 	modImplementation "dev.emi:emi:${project.emi_version}"
 
     implementation include("io.github.prismwork:prismconfig:0.1.1:all")
-    // implementation include("com
+    // implementation include("com.moandjiezana.toml:toml4j:0.7.2")
+}
+
+processResources {
+	inputs.pr
