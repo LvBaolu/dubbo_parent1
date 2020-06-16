@@ -51,4 +51,6 @@ dependencies {
 }
 
 processResources {
-	inputs.pr
+	inputs.property "version", project.version
+
+	filesMatching("fa
