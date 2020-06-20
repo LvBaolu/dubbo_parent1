@@ -58,4 +58,5 @@ processResources {
 	}
 }
 
-tas
+tasks.withType(JavaCompile).configureEach {
+	// Minec
