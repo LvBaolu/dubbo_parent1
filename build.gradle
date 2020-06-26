@@ -64,4 +64,4 @@ tasks.withType(JavaCompile).configureEach {
 }
 
 java {
-	// Loom will automatically att
+	// Loom will automatically attach sourcesJar to a RemapSourcesJar task and to the "build" t
