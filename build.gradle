@@ -70,3 +70,6 @@ java {
 	withSourcesJar()
 }
 
+jar {
+	from("LICENSE") {
+		rename { "${it}_${project.a
