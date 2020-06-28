@@ -77,4 +77,6 @@ jar {
 }
 
 // configure the maven publication
-p
+publishing {
+	publications {
+		mavenJava(MavenPublication) {
