@@ -83,4 +83,8 @@ rem Set variable GRADLE_EXIT_CONSOLE if you need the _script_ return code instea
 rem the _cmd.exe /c_ return code!
 set EXIT_CODE=%ERRORLEVEL%
 if %EXIT_CODE% equ 0 set EXIT_CODE=1
-if not ""=="%GRADLE_EXIT_CONSOLE%" exit %EXIT_C
+if not ""=="%GRADLE_EXIT_CONSOLE%" exit %EXIT_CODE%
+exit /b %EXIT_CODE%
+
+:mainEnd
+if "%OS%"
