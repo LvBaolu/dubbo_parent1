@@ -5,4 +5,5 @@ import dev.emi.emi.api.EmiPlugin;
 import dev.emi.emi.api.EmiRegistry;
 import dev.emi.emi.api.recipe.EmiRecipeCategory;
 import dev.emi.emi.api.stack.EmiStack;
-import io.github.prismwork.
+import io.github.prismwork.emitrades.config.EMITradesConfig;
+import io.github.pr
