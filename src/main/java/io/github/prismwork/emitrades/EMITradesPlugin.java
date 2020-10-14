@@ -6,4 +6,4 @@ import dev.emi.emi.api.EmiRegistry;
 import dev.emi.emi.api.recipe.EmiRecipeCategory;
 import dev.emi.emi.api.stack.EmiStack;
 import io.github.prismwork.emitrades.config.EMITradesConfig;
-import io.github.pr
+import io.github.prismwork.emitrades.recipe.VillagerTrade;
