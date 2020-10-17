@@ -8,4 +8,5 @@ import dev.emi.emi.api.stack.EmiStack;
 import io.github.prismwork.emitrades.config.EMITradesConfig;
 import io.github.prismwork.emitrades.recipe.VillagerTrade;
 import io.github.prismwork.emitrades.util.EntityEmiStack;
-import io.github.prismwork.emitrades.util.TradeProfi
+import io.github.prismwork.emitrades.util.TradeProfile;
+import it.unimi.dsi.fastutil.ints.In
