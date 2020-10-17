@@ -9,4 +9,5 @@ import io.github.prismwork.emitrades.config.EMITradesConfig;
 import io.github.prismwork.emitrades.recipe.VillagerTrade;
 import io.github.prismwork.emitrades.util.EntityEmiStack;
 import io.github.prismwork.emitrades.util.TradeProfile;
-import it.unimi.dsi.fastutil.ints.In
+import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
+import net.fabricmc.loader.api.Fab
