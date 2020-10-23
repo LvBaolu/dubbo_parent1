@@ -13,4 +13,5 @@ import it.unimi.dsi.fastutil.ints.Int2ObjectMap;
 import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.Block;
 import net.minecraft.client.MinecraftClient;
-import net.minecraft
+import net.minecraft.entity.Entity;
+import net.minecraft.entity.passive.V
