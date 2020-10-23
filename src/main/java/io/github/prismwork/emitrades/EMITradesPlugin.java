@@ -14,4 +14,5 @@ import net.fabricmc.loader.api.FabricLoader;
 import net.minecraft.block.Block;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.Entity;
-import net.minecraft.entity.passive.V
+import net.minecraft.entity.passive.VillagerEntity;
+import net.minecraft.entity.passive.WanderingTra
