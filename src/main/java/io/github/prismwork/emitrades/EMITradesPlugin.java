@@ -17,4 +17,5 @@ import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.VillagerEntity;
 import net.minecraft.entity.passive.WanderingTraderEntity;
 import net.minecraft.item.Item;
-import ne
+import net.minecraft.item.ItemStack;
+import net.minecra
