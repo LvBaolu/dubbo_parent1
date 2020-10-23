@@ -15,4 +15,6 @@ import net.minecraft.block.Block;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.passive.VillagerEntity;
-import net.minecraft.entity.passive.WanderingTra
+import net.minecraft.entity.passive.WanderingTraderEntity;
+import net.minecraft.item.Item;
+import ne
