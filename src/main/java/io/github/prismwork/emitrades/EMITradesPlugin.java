@@ -24,4 +24,5 @@ import net.minecraft.sound.SoundEvents;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.village.TradeOffer;
-import net.minecraft.vil
+import net.minecraft.village.TradeOffers;
+import net.minecraft.village.VillagerProf
