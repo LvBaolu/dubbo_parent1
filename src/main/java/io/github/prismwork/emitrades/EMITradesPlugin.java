@@ -25,4 +25,6 @@ import net.minecraft.util.Identifier;
 import net.minecraft.util.math.random.Random;
 import net.minecraft.village.TradeOffer;
 import net.minecraft.village.TradeOffers;
-import net.minecraft.village.VillagerProf
+import net.minecraft.village.VillagerProfession;
+import org.jetbrains.annotations.NotNull;
+im
