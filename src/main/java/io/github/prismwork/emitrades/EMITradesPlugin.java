@@ -33,4 +33,5 @@ import java.io.File;
 import java.util.TreeSet;
 import java.util.concurrent.atomic.AtomicInteger;
 
-public 
+public class EMITradesPlugin implements EmiPlugin {
+    public sta
