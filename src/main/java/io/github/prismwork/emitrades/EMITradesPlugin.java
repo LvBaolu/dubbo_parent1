@@ -34,4 +34,6 @@ import java.util.TreeSet;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class EMITradesPlugin implements EmiPlugin {
-    public static final VillagerProfession WANDERING_TRADER_PLACEHOLDER =
+    public static final VillagerProfession WANDERING_TRADER_PLACEHOLDER = new VillagerProfession(
+            "wandering_trader",
+    
