@@ -38,4 +38,5 @@ public class EMITradesPlugin implements EmiPlugin {
             "wandering_trader",
             entry -> false,
             entry -> false,
-            Immutabl
+            ImmutableSet.<Item>builder().build(),
+            ImmutableSet.<Blo
