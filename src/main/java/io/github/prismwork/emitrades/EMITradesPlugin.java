@@ -39,4 +39,5 @@ public class EMITradesPlugin implements EmiPlugin {
             entry -> false,
             entry -> false,
             ImmutableSet.<Item>builder().build(),
-            ImmutableSet.<Blo
+            ImmutableSet.<Block>builder().build(),
+            SoundEvents.ENTITY_WANDERING_TRA
