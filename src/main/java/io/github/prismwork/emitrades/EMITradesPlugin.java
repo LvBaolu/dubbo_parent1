@@ -40,4 +40,6 @@ public class EMITradesPlugin implements EmiPlugin {
             entry -> false,
             ImmutableSet.<Item>builder().build(),
             ImmutableSet.<Block>builder().build(),
-            SoundEvents.ENTITY_WANDERING_TRA
+            SoundEvents.ENTITY_WANDERING_TRADER_YES
+    );
+    public static final EmiRecipeCateg
