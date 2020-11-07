@@ -42,4 +42,5 @@ public class EMITradesPlugin implements EmiPlugin {
             ImmutableSet.<Block>builder().build(),
             SoundEvents.ENTITY_WANDERING_TRADER_YES
     );
-    public static final EmiRecipeCateg
+    public static final EmiRecipeCategory VILLAGER_TRADES
+            = new EmiRecipe
