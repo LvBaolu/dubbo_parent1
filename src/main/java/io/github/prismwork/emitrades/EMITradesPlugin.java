@@ -43,4 +43,5 @@ public class EMITradesPlugin implements EmiPlugin {
             SoundEvents.ENTITY_WANDERING_TRADER_YES
     );
     public static final EmiRecipeCategory VILLAGER_TRADES
-            = new EmiRecipeCategory(new Identifier("emitrades", "villager_trades"), EmiStack.
+            = new EmiRecipeCategory(new Identifier("emitrades", "villager_trades"), EmiStack.of(Items.EMERALD));
+    public static EMITradesConfi
