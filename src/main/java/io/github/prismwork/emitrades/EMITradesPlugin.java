@@ -45,4 +45,4 @@ public class EMITradesPlugin implements EmiPlugin {
     public static final EmiRecipeCategory VILLAGER_TRADES
             = new EmiRecipeCategory(new Identifier("emitrades", "villager_trades"), EmiStack.of(Items.EMERALD));
     public static EMITradesConfig.Config CONFIG;
-    private static final File CONFIG_FILE 
+    private static final File CONFIG_FILE = FabricLoader.getInstance().getConfigDir().resolve("emitrades
