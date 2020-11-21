@@ -48,4 +48,4 @@ public class EMITradesPlugin implements EmiPlugin {
     private static final File CONFIG_FILE = FabricLoader.getInstance().getConfigDir().resolve("emitrades.json5").toFile();
 
     @Override
-   
+    public void register(EmiRegistry registry) {
