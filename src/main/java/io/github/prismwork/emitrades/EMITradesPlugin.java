@@ -49,3 +49,5 @@ public class EMITradesPlugin implements EmiPlugin {
 
     @Override
     public void register(EmiRegistry registry) {
+        CONFIG = EMITradesConfig.load(CONFIG_FILE);
+       
