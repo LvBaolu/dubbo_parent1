@@ -52,4 +52,5 @@ public class EMITradesPlugin implements EmiPlugin {
         CONFIG = EMITradesConfig.load(CONFIG_FILE);
         registry.addCategory(VILLAGER_TRADES);
         Random random = Random.create();
-        for (Village
+        for (VillagerProfession profession : Registries.VILLAGER_PROFESSION) {
+   
