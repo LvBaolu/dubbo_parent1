@@ -53,4 +53,5 @@ public class EMITradesPlugin implements EmiPlugin {
         registry.addCategory(VILLAGER_TRADES);
         Random random = Random.create();
         for (VillagerProfession profession : Registries.VILLAGER_PROFESSION) {
-   
+            VillagerEntity villager = (VillagerEntity)
+        
