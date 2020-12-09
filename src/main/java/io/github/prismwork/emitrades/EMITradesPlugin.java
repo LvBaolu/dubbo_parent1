@@ -54,4 +54,5 @@ public class EMITradesPlugin implements EmiPlugin {
         Random random = Random.create();
         for (VillagerProfession profession : Registries.VILLAGER_PROFESSION) {
             VillagerEntity villager = (VillagerEntity)
-                    Registries.ENTITY_TYPE.get(new Identifier("minecraft", "villager")
+                    Registries.ENTITY_TYPE.get(new Identifier("minecraft", "villager")).create(MinecraftClient.getInstance().world);
+          
