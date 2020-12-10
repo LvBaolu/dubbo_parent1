@@ -55,4 +55,5 @@ public class EMITradesPlugin implements EmiPlugin {
         for (VillagerProfession profession : Registries.VILLAGER_PROFESSION) {
             VillagerEntity villager = (VillagerEntity)
                     Registries.ENTITY_TYPE.get(new Identifier("minecraft", "villager")).create(MinecraftClient.getInstance().world);
-          
+            if (villager != null) {
+                villager.setVill
