@@ -57,4 +57,6 @@ public class EMITradesPlugin implements EmiPlugin {
                     Registries.ENTITY_TYPE.get(new Identifier("minecraft", "villager")).create(MinecraftClient.getInstance().world);
             if (villager != null) {
                 villager.setVillagerData(villager.getVillagerData().withProfession(profession).withLevel(5));
-                registry.addWorkstation(VILLAGER_TRADES, EntityEmiStack.ofScaled(villager,
+                registry.addWorkstation(VILLAGER_TRADES, EntityEmiStack.ofScaled(villager, 8.0f));
+            }
+            AtomicInteger id = new Atomic
