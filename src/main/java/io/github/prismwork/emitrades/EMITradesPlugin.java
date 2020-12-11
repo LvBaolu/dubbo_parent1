@@ -63,4 +63,5 @@ public class EMITradesPlugin implements EmiPlugin {
             Int2ObjectMap<TradeOffers.Factory[]> offers = TradeOffers.PROFESSION_TO_LEVELED_TRADE.get(profession);
             if (offers == null || offers.isEmpty()) continue;
             int level = 0;
-          
+            while (level < 5) {
+                VillagerEnt
