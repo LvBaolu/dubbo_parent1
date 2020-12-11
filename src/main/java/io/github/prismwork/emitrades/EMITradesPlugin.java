@@ -60,4 +60,5 @@ public class EMITradesPlugin implements EmiPlugin {
                 registry.addWorkstation(VILLAGER_TRADES, EntityEmiStack.ofScaled(villager, 8.0f));
             }
             AtomicInteger id = new AtomicInteger();
-            Int2ObjectMap<TradeOffers.Factory[]> offers = TradeOffers.PROFESSION_TO_LEVELED_TRADE.get(pr
+            Int2ObjectMap<TradeOffers.Factory[]> offers = TradeOffers.PROFESSION_TO_LEVELED_TRADE.get(profession);
+            if (offers == null || offers.is
