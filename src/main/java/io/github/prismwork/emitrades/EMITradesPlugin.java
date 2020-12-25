@@ -64,4 +64,5 @@ public class EMITradesPlugin implements EmiPlugin {
             if (offers == null || offers.isEmpty()) continue;
             int level = 0;
             while (level < 5) {
-                VillagerEnt
+                VillagerEntity villager1 = (VillagerEntity)
+                    
