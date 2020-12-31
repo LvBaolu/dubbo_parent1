@@ -65,4 +65,4 @@ public class EMITradesPlugin implements EmiPlugin {
             int level = 0;
             while (level < 5) {
                 VillagerEntity villager1 = (VillagerEntity)
-                        Registries.ENTITY_TYPE.get(new Identifier("minec
+                        Registries.ENTITY_TYPE.get(new Identifier("minecraft", "villager")).create(MinecraftClient.getIns
