@@ -67,4 +67,4 @@ public class EMITradesPlugin implements EmiPlugin {
                 VillagerEntity villager1 = (VillagerEntity)
                         Registries.ENTITY_TYPE.get(new Identifier("minecraft", "villager")).create(MinecraftClient.getInstance().world);
                 if (villager1 != null) {
-                    villager1.setVillagerData(vill
+                    villager1.setVillagerData(villager1.getVillagerData().withProfession(professi
