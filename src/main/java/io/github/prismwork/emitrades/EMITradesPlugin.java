@@ -66,4 +66,5 @@ public class EMITradesPlugin implements EmiPlugin {
             while (level < 5) {
                 VillagerEntity villager1 = (VillagerEntity)
                         Registries.ENTITY_TYPE.get(new Identifier("minecraft", "villager")).create(MinecraftClient.getInstance().world);
-                if (villager1 != null)
+                if (villager1 != null) {
+                    villager1.setVillagerData(vill
