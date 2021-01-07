@@ -71,4 +71,4 @@ public class EMITradesPlugin implements EmiPlugin {
                 }
                 for (TradeOffers.Factory offer : offers.get(level + 1)) {
                     if (isVanillaFactory(offer)) {
-                        registry.addRecipe(n
+                        registry.addRecipe(new VillagerTrade(new TradeProfile.DefaultImpl(profession, offe
