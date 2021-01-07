@@ -70,4 +70,5 @@ public class EMITradesPlugin implements EmiPlugin {
                     villager1.setVillagerData(villager1.getVillagerData().withProfession(profession).withLevel(level + 1));
                 }
                 for (TradeOffers.Factory offer : offers.get(level + 1)) {
-                    if (isVanillaFactory(o
+                    if (isVanillaFactory(offer)) {
+                        registry.addRecipe(n
