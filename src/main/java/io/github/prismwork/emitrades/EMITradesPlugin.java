@@ -74,4 +74,5 @@ public class EMITradesPlugin implements EmiPlugin {
                         registry.addRecipe(new VillagerTrade(new TradeProfile.DefaultImpl(profession, offer, level + 1, villager1), id.get()));
                         id.getAndIncrement();
                     } else {
-      
+                        try {
+                        
