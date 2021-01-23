@@ -79,4 +79,4 @@ public class EMITradesPlugin implements EmiPlugin {
                             TreeSet<TradeOffer> genOffers = new TreeSet<>(this::compareOffers);
                             TradeOffer inOffer;
                             while (attempts > 0) {
-                                inOffer = offer.create(M
+                                inOffer = offer.create(MinecraftClient.getInstance().player, random);
