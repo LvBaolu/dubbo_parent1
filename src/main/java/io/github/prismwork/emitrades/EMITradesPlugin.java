@@ -83,4 +83,6 @@ public class EMITradesPlugin implements EmiPlugin {
                                 if (genOffers.add(inOffer))
                                     attempts++;
                                 else
-                
+                                    attempts--;
+                            }
+  
