@@ -87,4 +87,4 @@ public class EMITradesPlugin implements EmiPlugin {
                             }
                             int finalLevel = level;
                             genOffers.forEach(tradeOffer -> {
-      
+                                registry.addRecipe(new VillagerTrade(n
