@@ -85,4 +85,5 @@ public class EMITradesPlugin implements EmiPlugin {
                                 else
                                     attempts--;
                             }
-  
+                            int finalLevel = level;
+              
