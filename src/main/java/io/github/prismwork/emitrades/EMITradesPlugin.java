@@ -96,4 +96,4 @@ public class EMITradesPlugin implements EmiPlugin {
                 level++;
             }
         }
-        W
+        WanderingTraderEntity wanderingTrader = (WanderingTraderEntity) Re
