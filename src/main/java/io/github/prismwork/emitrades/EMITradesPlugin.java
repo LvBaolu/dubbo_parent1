@@ -89,4 +89,5 @@ public class EMITradesPlugin implements EmiPlugin {
                             genOffers.forEach(tradeOffer -> {
                                 registry.addRecipe(new VillagerTrade(new TradeProfile.DefaultImpl(profession, new FakeFactory(tradeOffer), finalLevel + 1, villager1), id.get()));
                                 id.getAndIncrement();
-               
+                            });
+                        } catch (Exception igno
