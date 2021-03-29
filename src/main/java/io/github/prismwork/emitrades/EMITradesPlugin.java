@@ -96,4 +96,5 @@ public class EMITradesPlugin implements EmiPlugin {
                 level++;
             }
         }
-        WanderingTraderEntity wanderingTrader = (WanderingTraderEntity) Registries.ENTITY_TYPE.get(new Identifier("minecra
+        WanderingTraderEntity wanderingTrader = (WanderingTraderEntity) Registries.ENTITY_TYPE.get(new Identifier("minecraft", "wandering_trader"))
+                .create(MinecraftClient.ge
