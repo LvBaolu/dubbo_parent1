@@ -98,4 +98,5 @@ public class EMITradesPlugin implements EmiPlugin {
         }
         WanderingTraderEntity wanderingTrader = (WanderingTraderEntity) Registries.ENTITY_TYPE.get(new Identifier("minecraft", "wandering_trader"))
                 .create(MinecraftClient.getInstance().world);
-        registry.addWorkstation(VILLAGER_TRADES, EntityEmiStack.of(wandering
+        registry.addWorkstation(VILLAGER_TRADES, EntityEmiStack.of(wanderingTrader));
+        AtomicInteger wanderingTraderId = new
