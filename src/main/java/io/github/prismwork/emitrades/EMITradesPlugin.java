@@ -101,4 +101,5 @@ public class EMITradesPlugin implements EmiPlugin {
         registry.addWorkstation(VILLAGER_TRADES, EntityEmiStack.of(wanderingTrader));
         AtomicInteger wanderingTraderId = new AtomicInteger();
         TradeOffers.WANDERING_TRADER_TRADES.forEach((lvl, offers) -> {
-            for (TradeOffers.F
+            for (TradeOffers.Factory offer : offers) {
+                if (isVanillaFactory(offe
