@@ -102,4 +102,5 @@ public class EMITradesPlugin implements EmiPlugin {
         AtomicInteger wanderingTraderId = new AtomicInteger();
         TradeOffers.WANDERING_TRADER_TRADES.forEach((lvl, offers) -> {
             for (TradeOffers.Factory offer : offers) {
-                if (isVanillaFactory(offe
+                if (isVanillaFactory(offer)) {
+                    registry.addRecipe(new Vil
