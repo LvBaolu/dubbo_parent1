@@ -103,4 +103,4 @@ public class EMITradesPlugin implements EmiPlugin {
         TradeOffers.WANDERING_TRADER_TRADES.forEach((lvl, offers) -> {
             for (TradeOffers.Factory offer : offers) {
                 if (isVanillaFactory(offer)) {
-                    registry.addRecipe(new Vil
+                    registry.addRecipe(new VillagerTrade(new TradeProfile.DefaultImpl(WANDERING_TRADER_PLACEHOLDER, of
