@@ -105,4 +105,6 @@ public class EMITradesPlugin implements EmiPlugin {
                 if (isVanillaFactory(offer)) {
                     registry.addRecipe(new VillagerTrade(new TradeProfile.DefaultImpl(WANDERING_TRADER_PLACEHOLDER, offer, lvl, wanderingTrader), wanderingTraderId.get()));
                     wanderingTraderId.getAndIncrement();
-           
+                } else {
+                    try {
+                
