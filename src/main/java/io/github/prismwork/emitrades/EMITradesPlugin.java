@@ -107,4 +107,5 @@ public class EMITradesPlugin implements EmiPlugin {
                     wanderingTraderId.getAndIncrement();
                 } else {
                     try {
-                
+                        int attempts = 5;
+                        TreeSet<Trade
