@@ -108,4 +108,5 @@ public class EMITradesPlugin implements EmiPlugin {
                 } else {
                     try {
                         int attempts = 5;
-                        TreeSet<TradeOffer> genOffers = new TreeSet<>(this::compa
+                        TreeSet<TradeOffer> genOffers = new TreeSet<>(this::compareOffers);
+                        TradeOffer in
