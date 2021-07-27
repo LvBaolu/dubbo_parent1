@@ -114,4 +114,6 @@ public class EMITradesPlugin implements EmiPlugin {
                             inOffer = offer.create(MinecraftClient.getInstance().player, random);
                             if (genOffers.add(inOffer))
                                 attempts++;
-                            
+                            else
+                                attempts--;
+        
