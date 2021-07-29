@@ -116,4 +116,5 @@ public class EMITradesPlugin implements EmiPlugin {
                                 attempts++;
                             else
                                 attempts--;
-        
+                        }
+                        int finalLeve
