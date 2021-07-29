@@ -117,4 +117,6 @@ public class EMITradesPlugin implements EmiPlugin {
                             else
                                 attempts--;
                         }
-                        int finalLeve
+                        int finalLevel = lvl;
+                        genOffers.forEach(tradeOffer -> {
+     
