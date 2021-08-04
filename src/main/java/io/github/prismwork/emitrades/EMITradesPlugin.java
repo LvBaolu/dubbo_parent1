@@ -122,4 +122,8 @@ public class EMITradesPlugin implements EmiPlugin {
                             registry.addRecipe(new VillagerTrade(new TradeProfile.DefaultImpl(WANDERING_TRADER_PLACEHOLDER, new FakeFactory(tradeOffer), finalLevel, wanderingTrader), wanderingTraderId.get()));
                             wanderingTraderId.getAndIncrement();
                         });
-                    } catch (Exception ignor
+                    } catch (Exception ignored) {}
+                }
+            }
+        });
+  
