@@ -126,4 +126,6 @@ public class EMITradesPlugin implements EmiPlugin {
                 }
             }
         });
-  
+    }
+
+    private static boolean isVanillaFactory(TradeOffers.Factory o
