@@ -128,4 +128,5 @@ public class EMITradesPlugin implements EmiPlugin {
         });
     }
 
-    private static boolean isVanillaFactory(TradeOffers.Factory o
+    private static boolean isVanillaFactory(TradeOffers.Factory offer) {
+        return offer instanceof TradeOffers.SellSusp
