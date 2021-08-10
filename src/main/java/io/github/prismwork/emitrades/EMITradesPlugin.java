@@ -131,4 +131,4 @@ public class EMITradesPlugin implements EmiPlugin {
     private static boolean isVanillaFactory(TradeOffers.Factory offer) {
         return offer instanceof TradeOffers.SellSuspiciousStewFactory ||
                 offer instanceof TradeOffers.SellEnchantedToolFactory ||
-       
+                offer instanceof TradeOffers.EnchantBookFactory 
