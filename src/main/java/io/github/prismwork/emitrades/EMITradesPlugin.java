@@ -132,4 +132,5 @@ public class EMITradesPlugin implements EmiPlugin {
         return offer instanceof TradeOffers.SellSuspiciousStewFactory ||
                 offer instanceof TradeOffers.SellEnchantedToolFactory ||
                 offer instanceof TradeOffers.EnchantBookFactory ||
-                offer instanceof Tra
+                offer instanceof TradeOffers.SellMapFactory ||
+                offer instanceof T
