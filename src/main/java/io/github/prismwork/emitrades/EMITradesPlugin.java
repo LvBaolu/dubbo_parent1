@@ -134,4 +134,5 @@ public class EMITradesPlugin implements EmiPlugin {
                 offer instanceof TradeOffers.EnchantBookFactory ||
                 offer instanceof TradeOffers.SellMapFactory ||
                 offer instanceof TradeOffers.SellPotionHoldingItemFactory ||
-          
+                offer instanceof TradeOffers.SellDyedArmorFactory ||
+ 
