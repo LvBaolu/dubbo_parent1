@@ -138,4 +138,7 @@ public class EMITradesPlugin implements EmiPlugin {
                 offer instanceof TradeOffers.TypeAwareBuyForOneEmeraldFactory ||
                 offer instanceof TradeOffers.SellItemFactory ||
                 offer instanceof TradeOffers.BuyForOneEmeraldFactory ||
-                offer in
+                offer instanceof TradeOffers.ProcessItemFactory;
+    }
+
+   
