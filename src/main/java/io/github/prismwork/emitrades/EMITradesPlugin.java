@@ -137,4 +137,5 @@ public class EMITradesPlugin implements EmiPlugin {
                 offer instanceof TradeOffers.SellDyedArmorFactory ||
                 offer instanceof TradeOffers.TypeAwareBuyForOneEmeraldFactory ||
                 offer instanceof TradeOffers.SellItemFactory ||
-                offer instanceof TradeO
+                offer instanceof TradeOffers.BuyForOneEmeraldFactory ||
+                offer in
