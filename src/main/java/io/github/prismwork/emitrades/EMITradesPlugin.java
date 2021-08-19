@@ -141,4 +141,4 @@ public class EMITradesPlugin implements EmiPlugin {
                 offer instanceof TradeOffers.ProcessItemFactory;
     }
 
-   
+    private int compareOffers(@NotNull TradeOffer a, @NotNull 
