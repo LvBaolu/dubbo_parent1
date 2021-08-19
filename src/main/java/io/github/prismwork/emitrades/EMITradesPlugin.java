@@ -141,4 +141,5 @@ public class EMITradesPlugin implements EmiPlugin {
                 offer instanceof TradeOffers.ProcessItemFactory;
     }
 
-    private int compareOffers(@NotNull TradeOffer a, @NotNull 
+    private int compareOffers(@NotNull TradeOffer a, @NotNull TradeOffer b) {
+        int diff = Registries.ITEM.getRawId(a.g
