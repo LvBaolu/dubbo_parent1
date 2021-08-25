@@ -144,4 +144,5 @@ public class EMITradesPlugin implements EmiPlugin {
     private int compareOffers(@NotNull TradeOffer a, @NotNull TradeOffer b) {
         int diff = Registries.ITEM.getRawId(a.getOriginalFirstBuyItem().getItem()) - Registries.ITEM.getRawId(b.getOriginalFirstBuyItem().getItem());
         if (diff != 0) return diff;
-        diff = Registries.ITEM.getRawId(a.getSecondBuyItem().getItem()) - Registries.I
+        diff = Registries.ITEM.getRawId(a.getSecondBuyItem().getItem()) - Registries.ITEM.getRawId(b.getSecondBuyItem().getItem());
+        if 
