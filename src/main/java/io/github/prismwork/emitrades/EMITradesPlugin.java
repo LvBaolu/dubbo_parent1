@@ -146,4 +146,4 @@ public class EMITradesPlugin implements EmiPlugin {
         if (diff != 0) return diff;
         diff = Registries.ITEM.getRawId(a.getSecondBuyItem().getItem()) - Registries.ITEM.getRawId(b.getSecondBuyItem().getItem());
         if (diff != 0) return diff;
-        diff = Registries.ITEM.getRawId
+        diff = Registries.ITEM.getRawId(a.getSellItem().getItem()) - Registries.ITEM.getRa
