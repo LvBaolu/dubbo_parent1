@@ -150,4 +150,4 @@ public class EMITradesPlugin implements EmiPlugin {
         return diff;
     }
 
-    publ
+    public static class FakeFactory implements TradeOffers.Facto
