@@ -150,4 +150,6 @@ public class EMITradesPlugin implements EmiPlugin {
         return diff;
     }
 
-    public static class FakeFactory implements TradeOffers.Facto
+    public static class FakeFactory implements TradeOffers.Factory {
+        public final ItemStack first;
+        pu
