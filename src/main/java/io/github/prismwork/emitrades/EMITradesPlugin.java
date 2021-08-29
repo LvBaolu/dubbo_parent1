@@ -152,4 +152,5 @@ public class EMITradesPlugin implements EmiPlugin {
 
     public static class FakeFactory implements TradeOffers.Factory {
         public final ItemStack first;
-        pu
+        public final ItemStack second;
+        public fin
