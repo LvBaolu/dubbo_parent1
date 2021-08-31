@@ -155,4 +155,5 @@ public class EMITradesPlugin implements EmiPlugin {
         public final ItemStack second;
         public final ItemStack sell;
 
-        public FakeFactory
+        public FakeFactory(TradeOffer offer) {
+            this.first = 
