@@ -163,4 +163,5 @@ public class EMITradesPlugin implements EmiPlugin {
 
         @Nullable
         @Override
-        public TradeOffer create(Entity 
+        public TradeOffer create(Entity entity, Random random) {
+            throw new AssertionError(); 
