@@ -164,4 +164,4 @@ public class EMITradesPlugin implements EmiPlugin {
         @Nullable
         @Override
         public TradeOffer create(Entity entity, Random random) {
-            throw new AssertionError(); 
+            throw new AssertionError(); // Not actually functional, only used for sati
