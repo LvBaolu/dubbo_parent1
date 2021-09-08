@@ -165,4 +165,6 @@ public class EMITradesPlugin implements EmiPlugin {
         @Override
         public TradeOffer create(Entity entity, Random random) {
             throw new AssertionError(); // Not actually functional, only used for satisfying TradeProfile so this method throws an error
-        
+        }
+    }
+}
