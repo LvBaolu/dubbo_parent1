@@ -7,4 +7,5 @@ import dev.emi.emi.api.render.EmiTexture;
 import dev.emi.emi.api.stack.EmiIngredient;
 import dev.emi.emi.api.stack.EmiStack;
 import dev.emi.emi.api.stack.ListEmiIngredient;
-import dev
+import dev.emi.emi.api.widget.SlotWidget;
+import dev.emi.emi.a
