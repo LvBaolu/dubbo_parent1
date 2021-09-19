@@ -11,4 +11,6 @@ import dev.emi.emi.api.widget.SlotWidget;
 import dev.emi.emi.api.widget.WidgetHolder;
 import io.github.prismwork.emitrades.EMITradesPlugin;
 import io.github.prismwork.emitrades.util.EntityEmiStack;
-import io.github.prismwork.emitrades.util.TradePro
+import io.github.prismwork.emitrades.util.TradeProfile;
+import net.minecraft.client.MinecraftClient;
+impo
