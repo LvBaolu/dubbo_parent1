@@ -13,4 +13,5 @@ import io.github.prismwork.emitrades.EMITradesPlugin;
 import io.github.prismwork.emitrades.util.EntityEmiStack;
 import io.github.prismwork.emitrades.util.TradeProfile;
 import net.minecraft.client.MinecraftClient;
-impo
+import net.minecraft.client.font.TextRenderer;
+import net.mi
