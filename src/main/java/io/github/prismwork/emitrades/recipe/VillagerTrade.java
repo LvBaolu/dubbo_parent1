@@ -14,4 +14,5 @@ import io.github.prismwork.emitrades.util.EntityEmiStack;
 import io.github.prismwork.emitrades.util.TradeProfile;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.TextRenderer;
-import net.mi
+import net.minecraft.enchantment.Enchantment;
+import net.minec
