@@ -16,4 +16,6 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.font.TextRenderer;
 import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.passive.VillagerEntity;
-import net.minecraft.item.It
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.Items;
+import 
