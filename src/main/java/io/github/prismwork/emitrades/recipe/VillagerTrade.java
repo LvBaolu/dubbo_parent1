@@ -19,4 +19,5 @@ import net.minecraft.entity.passive.VillagerEntity;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.item.SuspiciousStewItem;
-import net.mine
+import net.minecraft.registry.Registries;
+import net.minecraft.text
