@@ -20,4 +20,5 @@ import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
 import net.minecraft.item.SuspiciousStewItem;
 import net.minecraft.registry.Registries;
-import net.minecraft.text
+import net.minecraft.text.MutableText;
+import net.minecraft.text.Text
