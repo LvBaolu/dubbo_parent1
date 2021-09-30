@@ -24,4 +24,5 @@ import net.minecraft.text.MutableText;
 import net.minecraft.text.Text;
 import net.minecraft.util.Formatting;
 import net.minecraft.util.Identifier;
-import net.minecraft.v
+import net.minecraft.village.TradeOffers;
+import net.minecraft.vill
