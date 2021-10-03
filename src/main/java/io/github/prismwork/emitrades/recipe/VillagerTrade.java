@@ -31,4 +31,5 @@ import org.jetbrains.annotations.Nullable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class
+public class VillagerTrade implements EmiRecipe {
+    private final TradeProfile profi
