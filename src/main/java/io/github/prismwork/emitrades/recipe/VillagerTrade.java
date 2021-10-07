@@ -32,4 +32,5 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class VillagerTrade implements EmiRecipe {
-    private final TradeProfile profi
+    private final TradeProfile profile;
+    private final List<EmiIngredient>
