@@ -35,4 +35,5 @@ public class VillagerTrade implements EmiRecipe {
     private final TradeProfile profile;
     private final List<EmiIngredient> inputs;
     private final List<EmiStack> outputs;
-  
+    private final List<EmiIngredient> catalysts;
+    p
