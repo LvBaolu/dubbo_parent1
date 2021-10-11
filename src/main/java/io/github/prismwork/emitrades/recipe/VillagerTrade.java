@@ -36,4 +36,7 @@ public class VillagerTrade implements EmiRecipe {
     private final List<EmiIngredient> inputs;
     private final List<EmiStack> outputs;
     private final List<EmiIngredient> catalysts;
-    p
+    private final int id;
+    private final MutableText title;
+
+    publi
