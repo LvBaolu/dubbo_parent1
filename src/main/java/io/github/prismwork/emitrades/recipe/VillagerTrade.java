@@ -39,4 +39,5 @@ public class VillagerTrade implements EmiRecipe {
     private final int id;
     private final MutableText title;
 
-    publi
+    public VillagerTrade(TradeProfile profile, int id) {
+      
