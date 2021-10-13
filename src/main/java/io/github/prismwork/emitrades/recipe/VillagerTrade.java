@@ -40,4 +40,5 @@ public class VillagerTrade implements EmiRecipe {
     private final MutableText title;
 
     public VillagerTrade(TradeProfile profile, int id) {
-      
+        this.profile = profile;
+        this.inputs = new Arr
