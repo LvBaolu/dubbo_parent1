@@ -41,4 +41,6 @@ public class VillagerTrade implements EmiRecipe {
 
     public VillagerTrade(TradeProfile profile, int id) {
         this.profile = profile;
-        this.inputs = new Arr
+        this.inputs = new ArrayList<>();
+        this.outputs = new ArrayList<>();
+      
