@@ -44,4 +44,4 @@ public class VillagerTrade implements EmiRecipe {
         this.inputs = new ArrayList<>();
         this.outputs = new ArrayList<>();
         this.catalysts = profile.villager() != null ?
-                L
+                List.of(EntityEmiStack.ofScaled(profile.villag
