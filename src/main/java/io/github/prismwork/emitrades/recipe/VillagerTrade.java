@@ -43,4 +43,5 @@ public class VillagerTrade implements EmiRecipe {
         this.profile = profile;
         this.inputs = new ArrayList<>();
         this.outputs = new ArrayList<>();
-      
+        this.catalysts = profile.villager() != null ?
+                L
