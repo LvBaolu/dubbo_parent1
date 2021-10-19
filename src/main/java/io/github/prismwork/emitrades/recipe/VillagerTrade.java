@@ -46,4 +46,4 @@ public class VillagerTrade implements EmiRecipe {
         this.catalysts = profile.villager() != null ?
                 List.of(EntityEmiStack.ofScaled(profile.villager(), 12.0f)) : List.of();
         this.id = id;
-        V
+        VillagerProfession internalProf = profile.profession();
