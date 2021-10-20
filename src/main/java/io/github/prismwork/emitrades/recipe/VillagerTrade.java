@@ -47,3 +47,4 @@ public class VillagerTrade implements EmiRecipe {
                 List.of(EntityEmiStack.ofScaled(profile.villager(), 12.0f)) : List.of();
         this.id = id;
         VillagerProfession internalProf = profile.profession();
+        if (internalProf.equals(EMITradesPlugin.WANDERI
