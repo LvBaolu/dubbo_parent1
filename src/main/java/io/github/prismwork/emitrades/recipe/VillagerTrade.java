@@ -49,4 +49,5 @@ public class VillagerTrade implements EmiRecipe {
         VillagerProfession internalProf = profile.profession();
         if (internalProf.equals(EMITradesPlugin.WANDERING_TRADER_PLACEHOLDER)) {
             this.title = EmiPort.translatable("emi.emitrades.placeholder.wandering_trader");
-        } else
+        } else {
+            this.title = EmiPort.translatable("entity.minec
