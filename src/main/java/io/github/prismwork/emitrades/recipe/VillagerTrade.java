@@ -51,4 +51,4 @@ public class VillagerTrade implements EmiRecipe {
             this.title = EmiPort.translatable("emi.emitrades.placeholder.wandering_trader");
         } else {
             this.title = EmiPort.translatable("entity.minecraft.villager." + profile.profession().id().substring(profile.profession().id().lastIndexOf(":") + 1))
-                   
+                    .append(" - ").append(EmiPort.translatable("emi.emitrades.profession.
