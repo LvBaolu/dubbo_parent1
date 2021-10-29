@@ -54,4 +54,5 @@ public class VillagerTrade implements EmiRecipe {
                     .append(" - ").append(EmiPort.translatable("emi.emitrades.profession.lvl." + profile.level()));
         }
         TradeOffers.Factory offer = profile.offer();
-        if (offer instanceof TradeO
+        if (offer instanceof TradeOffers.BuyForOneEmeraldFactory factory) {
+   
