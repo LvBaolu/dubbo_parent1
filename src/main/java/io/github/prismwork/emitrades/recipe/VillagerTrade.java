@@ -55,4 +55,4 @@ public class VillagerTrade implements EmiRecipe {
         }
         TradeOffers.Factory offer = profile.offer();
         if (offer instanceof TradeOffers.BuyForOneEmeraldFactory factory) {
-   
+            inputs.add(0, EmiStack.of(factory.buy, factory.p
