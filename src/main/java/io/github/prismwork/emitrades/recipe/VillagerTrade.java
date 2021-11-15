@@ -68,4 +68,5 @@ public class VillagerTrade implements EmiRecipe {
             ItemStack stack = new ItemStack(Items.SUSPICIOUS_STEW, 1);
             SuspiciousStewItem.addEffectToStew(stack, factory.effect, factory.duration);
             outputs.add(0, EmiStack.of(stack));
-        } else if (offer inst
+        } else if (offer instanceof TradeOffers.ProcessItemFactory factory) {
+   
