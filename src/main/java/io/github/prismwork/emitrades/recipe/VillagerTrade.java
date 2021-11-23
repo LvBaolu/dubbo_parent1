@@ -72,4 +72,5 @@ public class VillagerTrade implements EmiRecipe {
             inputs.add(0, EmiStack.of(Items.EMERALD, factory.price));
             inputs.add(1, EmiStack.of(factory.secondBuy, factory.secondCount));
             outputs.add(0, EmiStack.of(factory.sell, factory.sellCount));
-        } else if (offer instanceof TradeO
+        } else if (offer instanceof TradeOffers.SellEnchantedToolFactory factory) {
+            input
