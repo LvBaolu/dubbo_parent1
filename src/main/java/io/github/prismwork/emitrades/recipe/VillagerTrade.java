@@ -75,4 +75,5 @@ public class VillagerTrade implements EmiRecipe {
         } else if (offer instanceof TradeOffers.SellEnchantedToolFactory factory) {
             inputs.add(0, EmiStack.of(Items.EMERALD, Math.min(factory.basePrice + 5, 64)));
             inputs.add(1, EmiStack.EMPTY);
-            outputs.add(0, EmiStack.of(factory.tool)
+            outputs.add(0, EmiStack.of(factory.tool));
+        } else if (offer instanceof TradeOffers.Type
