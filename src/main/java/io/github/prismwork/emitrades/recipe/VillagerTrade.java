@@ -79,4 +79,5 @@ public class VillagerTrade implements EmiRecipe {
         } else if (offer instanceof TradeOffers.TypeAwareBuyForOneEmeraldFactory factory) {
             List<EmiStack> stacks = new ArrayList<>();
             factory.map.values().forEach(item -> stacks.add(EmiStack.of(item)));
-            inputs.add(0, new ListEmiIng
+            inputs.add(0, new ListEmiIngredient(stacks, factory.count));
+            inputs.add(1,
