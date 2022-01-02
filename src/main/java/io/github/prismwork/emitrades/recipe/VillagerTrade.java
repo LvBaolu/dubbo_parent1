@@ -84,4 +84,5 @@ public class VillagerTrade implements EmiRecipe {
             outputs.add(0, EmiStack.of(Items.EMERALD));
         } else if (offer instanceof TradeOffers.SellPotionHoldingItemFactory factory) {
             inputs.add(0, EmiStack.of(Items.EMERALD, factory.price));
-            inputs.add(1, EmiStack.of(fa
+            inputs.add(1, EmiStack.of(factory.secondBuy, factory.secondCount));
+            
