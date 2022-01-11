@@ -89,4 +89,5 @@ public class VillagerTrade implements EmiRecipe {
         } else if (offer instanceof TradeOffers.EnchantBookFactory) {
             inputs.add(0, EmiStack.of(Items.EMERALD, 5));
             inputs.add(1, EmiStack.of(Items.BOOK));
-            outputs.add(0, EmiStack.of(Ite
+            outputs.add(0, EmiStack.of(Items.ENCHANTED_BOOK));
+        } else if (offer instanc
