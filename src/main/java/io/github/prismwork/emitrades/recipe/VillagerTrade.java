@@ -96,4 +96,5 @@ public class VillagerTrade implements EmiRecipe {
             outputs.add(0, EmiStack.of(Items.FILLED_MAP));
         } else if (offer instanceof TradeOffers.SellDyedArmorFactory factory) {
             inputs.add(0, EmiStack.of(Items.EMERALD, factory.price));
-            inputs.add
+            inputs.add(1, EmiStack.EMPTY);
+            outputs.add(0, EmiStack.
