@@ -110,4 +110,9 @@ public class VillagerTrade implements EmiRecipe {
     }
 
     @Override
-    public List<EmiIngredient> getCataly
+    public List<EmiIngredient> getCatalysts() {
+        return catalysts;
+    }
+
+    @Override
+    publ
