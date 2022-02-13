@@ -105,4 +105,9 @@ public class VillagerTrade implements EmiRecipe {
         } else {
             inputs.add(0, EmiStack.EMPTY);
             inputs.add(1, EmiStack.EMPTY);
-            outputs.add(0, EmiStack.EMPTY
+            outputs.add(0, EmiStack.EMPTY);
+        }
+    }
+
+    @Override
+    public List<EmiIngredient> getCataly
