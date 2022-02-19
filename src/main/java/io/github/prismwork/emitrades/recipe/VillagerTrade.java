@@ -116,4 +116,8 @@ public class VillagerTrade implements EmiRecipe {
 
     @Override
     public EmiRecipeCategory getCategory() {
-        return EMITr
+        return EMITradesPlugin.VILLAGER_TRADES;
+    }
+
+    @Override
+    public @Nulla
