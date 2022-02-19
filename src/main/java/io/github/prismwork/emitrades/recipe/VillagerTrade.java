@@ -115,4 +115,5 @@ public class VillagerTrade implements EmiRecipe {
     }
 
     @Override
-    publ
+    public EmiRecipeCategory getCategory() {
+        return EMITr
