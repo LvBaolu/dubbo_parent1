@@ -121,4 +121,8 @@ public class VillagerTrade implements EmiRecipe {
 
     @Override
     public @Nullable Identifier getId() {
-        return new Identifier("emi", "emitrades/villager_trades/" + profile.profession().id().substring(profile.profession().id().
+        return new Identifier("emi", "emitrades/villager_trades/" + profile.profession().id().substring(profile.profession().id().lastIndexOf(":") + 1) + "_" + id);
+    }
+
+    @Override
+  
