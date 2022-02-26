@@ -126,4 +126,8 @@ public class VillagerTrade implements EmiRecipe {
 
     @Override
     public List<EmiIngredient> getInputs() {
-        return inpu
+        return inputs;
+    }
+
+    @Override
+    public List<EmiStac
