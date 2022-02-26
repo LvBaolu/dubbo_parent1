@@ -134,4 +134,5 @@ public class VillagerTrade implements EmiRecipe {
         return outputs;
     }
 
-  
+    @Override
+    public int getDisplayWidth() 
