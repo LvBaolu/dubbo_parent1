@@ -135,4 +135,5 @@ public class VillagerTrade implements EmiRecipe {
     }
 
     @Override
-    public int getDisplayWidth() 
+    public int getDisplayWidth() {
+        TextRenderer textRenderer = MinecraftClient
