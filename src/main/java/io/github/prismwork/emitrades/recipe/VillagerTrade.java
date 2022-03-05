@@ -138,4 +138,5 @@ public class VillagerTrade implements EmiRecipe {
     public int getDisplayWidth() {
         TextRenderer textRenderer = MinecraftClient.getInstance().textRenderer;
         int extraWidth = catalysts.isEmpty() ? 0 : 21;
-        return (catalysts.isEmpty() || !EMITradesPlugin.CONFIG.enable3DVillagerModelInRecipes) ? Math.max(86, textRenderer.getWidth(title) 
+        return (catalysts.isEmpty() || !EMITradesPlugin.CONFIG.enable3DVillagerModelInRecipes) ? Math.max(86, textRenderer.getWidth(title) + 2) :
+                Math.max(extraWidth + 85, extraWid
