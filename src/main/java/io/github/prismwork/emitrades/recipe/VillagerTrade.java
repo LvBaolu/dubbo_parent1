@@ -147,4 +147,5 @@ public class VillagerTrade implements EmiRecipe {
         return 28;
     }
 
-    @Ove
+    @Override
+    public void addWidgets(WidgetHolder widgets) 
