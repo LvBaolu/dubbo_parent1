@@ -143,4 +143,8 @@ public class VillagerTrade implements EmiRecipe {
     }
 
     @Override
-    pu
+    public int getDisplayHeight() {
+        return 28;
+    }
+
+    @Ove
