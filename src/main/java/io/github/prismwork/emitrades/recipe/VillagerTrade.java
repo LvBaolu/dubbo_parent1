@@ -149,4 +149,5 @@ public class VillagerTrade implements EmiRecipe {
 
     @Override
     public void addWidgets(WidgetHolder widgets) {
-        TextRenderer textRenderer = MinecraftClient.getIn
+        TextRenderer textRenderer = MinecraftClient.getInstance().textRenderer;
+        if (cataly
