@@ -150,4 +150,4 @@ public class VillagerTrade implements EmiRecipe {
     @Override
     public void addWidgets(WidgetHolder widgets) {
         TextRenderer textRenderer = MinecraftClient.getInstance().textRenderer;
-        if (cataly
+        if (catalysts.isEmpty() || !EMITradesPlugin.CONFIG.enable3DVill
