@@ -152,4 +152,4 @@ public class VillagerTrade implements EmiRecipe {
         TextRenderer textRenderer = MinecraftClient.getInstance().textRenderer;
         if (catalysts.isEmpty() || !EMITradesPlugin.CONFIG.enable3DVillagerModelInRecipes) {
             widgets.addText(EmiPort.ordered(title),
-                    (getDis
+                    (getDisplayWidth() - textRenderer.getWidth(title)) / 
