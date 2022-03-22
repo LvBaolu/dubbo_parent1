@@ -154,4 +154,5 @@ public class VillagerTrade implements EmiRecipe {
             widgets.addText(EmiPort.ordered(title),
                     (getDisplayWidth() - textRenderer.getWidth(title)) / 2, 0, 16777215, true);
             widgets.addSlot(inputs.get(0), getDisplayWidth() / 2 - 42, 10);
-            widgets.addSlot(inputs.get(1), getDisplayWidth() / 
+            widgets.addSlot(inputs.get(1), getDisplayWidth() / 2 - 22, 10);
+            widgets.addTexture(EmiTexture.EMPTY
