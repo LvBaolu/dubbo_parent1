@@ -160,4 +160,5 @@ public class VillagerTrade implements EmiRecipe {
             wrapOutput(widgets, outputSlot);
         } else {
             SlotWidget villagerSlot = new SlotWidget(catalysts.get(0), 1, 6).drawBack(false);
-            if (profile.villager() instanceof VillagerEntity villager
+            if (profile.villager() instanceof VillagerEntity villager) {
+                villagerSlot.append
