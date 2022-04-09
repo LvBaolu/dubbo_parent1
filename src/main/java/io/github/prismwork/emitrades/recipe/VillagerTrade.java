@@ -165,4 +165,5 @@ public class VillagerTrade implements EmiRecipe {
             }
             widgets.add(villagerSlot);
             widgets.addText(EmiPort.ordered(title),
-                    21, 0, 1677
+                    21, 0, 16777215, true);
+            widgets.addSlot(inputs.get(0), 21, 10);
