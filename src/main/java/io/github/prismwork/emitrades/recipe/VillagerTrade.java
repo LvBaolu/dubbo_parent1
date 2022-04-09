@@ -161,4 +161,4 @@ public class VillagerTrade implements EmiRecipe {
         } else {
             SlotWidget villagerSlot = new SlotWidget(catalysts.get(0), 1, 6).drawBack(false);
             if (profile.villager() instanceof VillagerEntity villager) {
-                villagerSlot.appendTooltip(EmiPort.translatable("emi.emitrades.prof
+                villagerSlot.appendTooltip(EmiPort.translatable("emi.emitrades.profession.lvl." + villager.getVillagerData().getLevel()).for
