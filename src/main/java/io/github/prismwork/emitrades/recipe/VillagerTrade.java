@@ -164,4 +164,5 @@ public class VillagerTrade implements EmiRecipe {
                 villagerSlot.appendTooltip(EmiPort.translatable("emi.emitrades.profession.lvl." + villager.getVillagerData().getLevel()).formatted(Formatting.YELLOW));
             }
             widgets.add(villagerSlot);
-            widgets.addText(EmiPo
+            widgets.addText(EmiPort.ordered(title),
+                    21, 0, 1677
