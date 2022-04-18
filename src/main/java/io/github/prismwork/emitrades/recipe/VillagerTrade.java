@@ -170,4 +170,8 @@ public class VillagerTrade implements EmiRecipe {
             widgets.addSlot(inputs.get(1), 41, 10);
             widgets.addTexture(EmiTexture.EMPTY_ARROW, 60, 10);
             SlotWidget outputSlot = new SlotWidget(outputs.get(0), 85, 10).recipeContext(this);
-            wrapOut
+            wrapOutput(widgets, outputSlot);
+        }
+    }
+
+    pri
