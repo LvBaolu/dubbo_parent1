@@ -174,4 +174,4 @@ public class VillagerTrade implements EmiRecipe {
         }
     }
 
-    pri
+    private void wrapOutput(WidgetHolder widgets, SlotWidget 
