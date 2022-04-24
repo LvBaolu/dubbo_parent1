@@ -176,4 +176,4 @@ public class VillagerTrade implements EmiRecipe {
 
     private void wrapOutput(WidgetHolder widgets, SlotWidget outputSlot) {
         if (profile.offer() instanceof TradeOffers.SellDyedArmorFactory) {
-            outputSlot 
+            outputSlot = outputSlot.appendTooltip(EmiPort.translatable("emi.emitrades
