@@ -181,4 +181,4 @@ public class VillagerTrade implements EmiRecipe {
             outputSlot = outputSlot.appendTooltip(EmiPort.translatable("emi.emitrades.random_effect").formatted(Formatting.YELLOW));
         } else if (profile.offer() instanceof TradeOffers.SellMapFactory) {
             outputSlot = outputSlot.appendTooltip(EmiPort.translatable("emi.emitrades.random_structure").formatted(Formatting.YELLOW));
-        } else if (profile.offer() insta
+        } else if (profile.offer() instanceof TradeOffers.EnchantBookFactory || profile.offer() i
