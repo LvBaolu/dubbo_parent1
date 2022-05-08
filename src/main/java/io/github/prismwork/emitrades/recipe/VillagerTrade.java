@@ -184,4 +184,5 @@ public class VillagerTrade implements EmiRecipe {
         } else if (profile.offer() instanceof TradeOffers.EnchantBookFactory || profile.offer() instanceof TradeOffers.SellEnchantedToolFactory) {
             List<Enchantment> list
                     = Registries.ENCHANTMENT.stream().filter(Enchantment::isAvailableForEnchantedBookOffer).toList();
-            if (!list.isE
+            if (!list.isEmpty()) {
+                outputSlot = outputSlot.appendTooltip(
