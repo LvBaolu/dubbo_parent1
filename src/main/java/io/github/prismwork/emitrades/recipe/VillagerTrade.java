@@ -185,4 +185,6 @@ public class VillagerTrade implements EmiRecipe {
             List<Enchantment> list
                     = Registries.ENCHANTMENT.stream().filter(Enchantment::isAvailableForEnchantedBookOffer).toList();
             if (!list.isEmpty()) {
-                outputSlot = outputSlot.appendTooltip(Text.translatable("emi.emitrades.enchantments.possi
+                outputSlot = outputSlot.appendTooltip(Text.translatable("emi.emitrades.enchantments.possible")
+                        .formatted(Formatting.AQUA));
+   
