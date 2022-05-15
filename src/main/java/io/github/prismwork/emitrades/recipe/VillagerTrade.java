@@ -188,4 +188,5 @@ public class VillagerTrade implements EmiRecipe {
                 outputSlot = outputSlot.appendTooltip(Text.translatable("emi.emitrades.enchantments.possible")
                         .formatted(Formatting.AQUA));
                 for (Enchantment enchantment : list) {
-                    outputSlot = outputSlot.appendTooltip
+                    outputSlot = outputSlot.appendTooltip(Text.literal("- ")
+                            .app
