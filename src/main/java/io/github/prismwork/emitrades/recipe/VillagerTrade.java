@@ -192,3 +192,6 @@ public class VillagerTrade implements EmiRecipe {
                             .append(Text.translatable(enchantment.getTranslationKey())).formatted(Formatting.GRAY));
                 }
             }
+        }
+        widgets.add(outputSlot);
+    
