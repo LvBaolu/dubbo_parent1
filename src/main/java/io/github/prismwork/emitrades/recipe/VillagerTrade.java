@@ -194,4 +194,5 @@ public class VillagerTrade implements EmiRecipe {
             }
         }
         widgets.add(outputSlot);
-    
+    }
+}
