@@ -9,4 +9,5 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.Mouse;
 import net.minecraft.client.gui.screen.Screen;
 import net.minecraft.client.gui.tooltip.TooltipComponent;
-import net.minecraft.client.r
+import net.minecraft.client.render.DiffuseLighting;
+import net.minecraft.client.
