@@ -8,4 +8,5 @@ import dev.emi.emi.screen.tooltip.RemainderTooltipComponent;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.Mouse;
 import net.minecraft.client.gui.screen.Screen;
-import net.minecraft.clie
+import net.minecraft.client.gui.tooltip.TooltipComponent;
+import net.minecraft.client.r
