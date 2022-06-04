@@ -12,4 +12,6 @@ import net.minecraft.client.gui.tooltip.TooltipComponent;
 import net.minecraft.client.render.DiffuseLighting;
 import net.minecraft.client.render.VertexConsumerProvider;
 import net.minecraft.client.render.entity.EntityRenderDispatcher;
-import net.minecraft.clien
+import net.minecraft.client.util.math.MatrixStack;
+import net.minecraft.entity.Entity;
+i
