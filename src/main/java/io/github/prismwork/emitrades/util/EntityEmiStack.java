@@ -18,4 +18,6 @@ import net.minecraft.entity.LivingEntity;
 import net.minecraft.entity.passive.VillagerEntity;
 import net.minecraft.nbt.NbtCompound;
 import net.minecraft.registry.Registries;
-import net.m
+import net.minecraft.text.Text;
+import net.minecraft.util.Formatting;
+im
