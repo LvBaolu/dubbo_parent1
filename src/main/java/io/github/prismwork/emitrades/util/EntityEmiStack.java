@@ -25,4 +25,7 @@ import org.jetbrains.annotations.Nullable;
 import org.joml.Quaternionf;
 
 import java.util.ArrayList;
-import java.u
+import java.util.List;
+
+public class EntityEmiStack extends EmiStack {
+    pri
