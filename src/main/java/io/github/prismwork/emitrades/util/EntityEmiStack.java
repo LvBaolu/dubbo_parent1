@@ -29,4 +29,7 @@ import java.util.List;
 
 public class EntityEmiStack extends EmiStack {
     private final @Nullable Entity entity;
-    private final Enti
+    private final EntityEntry entry;
+    private final double scale;
+
+    
