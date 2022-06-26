@@ -34,4 +34,5 @@ public class EntityEmiStack extends EmiStack {
 
     protected EntityEmiStack(@Nullable Entity entity) {
         this.entity = entity;
-        this.entry
+        this.entry = new EntityEntry(entity);
+        this.scale = 8.0f
