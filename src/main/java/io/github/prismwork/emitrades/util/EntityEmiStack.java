@@ -38,4 +38,6 @@ public class EntityEmiStack extends EmiStack {
         this.scale = 8.0f;
     }
 
-    protected EntityEmiStack(@Nullable Entity entity, double scal
+    protected EntityEmiStack(@Nullable Entity entity, double scale) {
+        this.entity = entity;
+        this.entry = ne
