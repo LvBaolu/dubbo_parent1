@@ -45,4 +45,7 @@ public class EntityEmiStack extends EmiStack {
     }
 
     public static EntityEmiStack of(@Nullable Entity entity) {
-        return new EntityEmiStack(entit
+        return new EntityEmiStack(entity);
+    }
+
+    public static EntityEmiStack ofScaled(@Nu
