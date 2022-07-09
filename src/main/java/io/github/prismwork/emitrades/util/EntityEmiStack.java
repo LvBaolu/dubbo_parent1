@@ -53,4 +53,5 @@ public class EntityEmiStack extends EmiStack {
     }
 
     @Override
-    public Emi
+    public EmiStack copy() {
+        EntityEmiStack stac
