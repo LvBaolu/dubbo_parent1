@@ -49,4 +49,8 @@ public class EntityEmiStack extends EmiStack {
     }
 
     public static EntityEmiStack ofScaled(@Nullable Entity entity, double scale) {
-        return new Entity
+        return new EntityEmiStack(entity, scale);
+    }
+
+    @Override
+    public Emi
