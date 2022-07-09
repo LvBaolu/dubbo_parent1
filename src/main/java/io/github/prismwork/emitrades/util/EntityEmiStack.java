@@ -54,4 +54,5 @@ public class EntityEmiStack extends EmiStack {
 
     @Override
     public EmiStack copy() {
-        EntityEmiStack stac
+        EntityEmiStack stack = new EntityEmiStack(entity);
+        stack.setRemain
