@@ -61,3 +61,5 @@ public class EntityEmiStack extends EmiStack {
     }
 
     @Override
+    public boolean isEmpty() {
+        return entity == nu
