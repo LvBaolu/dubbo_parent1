@@ -56,4 +56,8 @@ public class EntityEmiStack extends EmiStack {
     public EmiStack copy() {
         EntityEmiStack stack = new EntityEmiStack(entity);
         stack.setRemainder(getRemainder().copy());
-        stack.comparison 
+        stack.comparison = comparison;
+        return stack;
+    }
+
+    @Override
