@@ -62,4 +62,8 @@ public class EntityEmiStack extends EmiStack {
 
     @Override
     public boolean isEmpty() {
-        return entity == nu
+        return entity == null;
+    }
+
+    @Override
+    public void render(MatrixS
