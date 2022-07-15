@@ -68,4 +68,5 @@ public class EntityEmiStack extends EmiStack {
     @Override
     public void render(MatrixStack matrices, int x, int y, float delta, int flags) {
         if (entity != null) {
-            if (entit
+            if (entity instanceof LivingEntity living)
+                r
