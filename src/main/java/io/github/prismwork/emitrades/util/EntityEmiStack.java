@@ -69,4 +69,6 @@ public class EntityEmiStack extends EmiStack {
     public void render(MatrixStack matrices, int x, int y, float delta, int flags) {
         if (entity != null) {
             if (entity instanceof LivingEntity living)
-                renderEntity(x + 8, (int) (y + 8 + scale), s
+                renderEntity(x + 8, (int) (y + 8 + scale), scale, living);
+            else
+                renderEntity((i
