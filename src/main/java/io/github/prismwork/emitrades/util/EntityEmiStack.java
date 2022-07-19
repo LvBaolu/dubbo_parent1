@@ -71,4 +71,4 @@ public class EntityEmiStack extends EmiStack {
             if (entity instanceof LivingEntity living)
                 renderEntity(x + 8, (int) (y + 8 + scale), scale, living);
             else
-                renderEntity((i
+                renderEntity((int) (x + (2 * scale / 2)), (int) (y + (2 * scale)), 
