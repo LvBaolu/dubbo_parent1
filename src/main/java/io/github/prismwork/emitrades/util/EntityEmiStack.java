@@ -77,4 +77,8 @@ public class EntityEmiStack extends EmiStack {
 
     @Override
     public NbtCompound getNbt() {
-        throw new UnsupportedOperationException("EntityEmiStack is not intended
+        throw new UnsupportedOperationException("EntityEmiStack is not intended for NBT handling");
+    }
+
+    @Override
+    public Object get
