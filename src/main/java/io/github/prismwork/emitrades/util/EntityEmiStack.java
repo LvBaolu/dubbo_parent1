@@ -76,4 +76,5 @@ public class EntityEmiStack extends EmiStack {
     }
 
     @Override
-    publ
+    public NbtCompound getNbt() {
+        throw new UnsupportedOperati
