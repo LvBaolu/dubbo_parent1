@@ -88,3 +88,7 @@ public class EntityEmiStack extends EmiStack {
     @Override
     public Entry<?> getEntry() {
         return entry;
+    }
+
+    @Override
+    public Identifier getId() {
