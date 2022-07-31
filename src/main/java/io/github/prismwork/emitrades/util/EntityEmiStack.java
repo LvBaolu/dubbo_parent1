@@ -92,3 +92,4 @@ public class EntityEmiStack extends EmiStack {
 
     @Override
     public Identifier getId() {
+        if (entity == null) throw new RuntimeException("En
