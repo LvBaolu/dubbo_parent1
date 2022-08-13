@@ -92,4 +92,5 @@ public class EntityEmiStack extends EmiStack {
 
     @Override
     public Identifier getId() {
-        if (entity == null) throw new RuntimeException("En
+        if (entity == null) throw new RuntimeException("Entity is null");
+        return Registries.ENTITY_TYPE.
