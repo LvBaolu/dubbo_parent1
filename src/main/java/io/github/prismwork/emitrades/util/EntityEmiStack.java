@@ -97,4 +97,6 @@ public class EntityEmiStack extends EmiStack {
     }
 
     @Override
-    public
+    public List<Text> getTooltipText() {
+        return List.of(getName());
+ 
