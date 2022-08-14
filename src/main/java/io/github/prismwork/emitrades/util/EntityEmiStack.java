@@ -102,4 +102,5 @@ public class EntityEmiStack extends EmiStack {
     }
 
     @Override
-    public List<TooltipComponent> getTo
+    public List<TooltipComponent> getTooltip() {
+        List<TooltipComponent> list = new ArrayList<>();
