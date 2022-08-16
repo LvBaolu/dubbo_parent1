@@ -105,4 +105,4 @@ public class EntityEmiStack extends EmiStack {
     public List<TooltipComponent> getTooltip() {
         List<TooltipComponent> list = new ArrayList<>();
         if (entity != null) {
-            list.addAll(ge
+            list.addAll(getTooltipText().stream().map(EmiPort::ordered).map(TooltipCompone
