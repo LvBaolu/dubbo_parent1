@@ -107,4 +107,4 @@ public class EntityEmiStack extends EmiStack {
         if (entity != null) {
             list.addAll(getTooltipText().stream().map(EmiPort::ordered).map(TooltipComponent::of).toList());
             String mod;
-  
+            if (entity instanceof VillagerEntity villager) {
