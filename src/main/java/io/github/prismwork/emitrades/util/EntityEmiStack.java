@@ -108,4 +108,4 @@ public class EntityEmiStack extends EmiStack {
             list.addAll(getTooltipText().stream().map(EmiPort::ordered).map(TooltipComponent::of).toList());
             String mod;
             if (entity instanceof VillagerEntity villager) {
-                mod = EmiUtil.getModName(Registries.VILLAGER_PROF
+                mod = EmiUtil.getModName(Registries.VILLAGER_PROFESSION.getId(villager.getVillagerData().getProfes
