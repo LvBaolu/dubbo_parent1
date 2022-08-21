@@ -112,4 +112,4 @@ public class EntityEmiStack extends EmiStack {
             } else {
                 mod = EmiUtil.getModName(Registries.ENTITY_TYPE.getId(entity.getType()).getNamespace());
             }
-           
+            list.add(TooltipComponent.of(EmiPort.ordered(EmiPort.li
