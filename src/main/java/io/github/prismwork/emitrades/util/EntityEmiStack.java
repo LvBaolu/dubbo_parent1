@@ -110,4 +110,6 @@ public class EntityEmiStack extends EmiStack {
             if (entity instanceof VillagerEntity villager) {
                 mod = EmiUtil.getModName(Registries.VILLAGER_PROFESSION.getId(villager.getVillagerData().getProfession()).getNamespace());
             } else {
-                mod = EmiUtil.getModName(Registries.ENTITY_TYPE.
+                mod = EmiUtil.getModName(Registries.ENTITY_TYPE.getId(entity.getType()).getNamespace());
+            }
+           
