@@ -114,4 +114,5 @@ public class EntityEmiStack extends EmiStack {
             }
             list.add(TooltipComponent.of(EmiPort.ordered(EmiPort.literal(mod, Formatting.BLUE, Formatting.ITALIC))));
             if (!getRemainder().isEmpty()) {
-                li
+                list.add(new RemainderTooltipComponent(this));
+            }
