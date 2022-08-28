@@ -122,4 +122,7 @@ public class EntityEmiStack extends EmiStack {
 
     @Override
     public Text getName() {
-        return entity != null ? e
+        return entity != null ? entity.getName() : EmiPort.literal("yet another missingno");
+    }
+
+ 
