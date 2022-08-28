@@ -121,4 +121,5 @@ public class EntityEmiStack extends EmiStack {
     }
 
     @Override
-    public Te
+    public Text getName() {
+        return entity != null ? e
