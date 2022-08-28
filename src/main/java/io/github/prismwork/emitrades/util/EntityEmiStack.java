@@ -116,3 +116,9 @@ public class EntityEmiStack extends EmiStack {
             if (!getRemainder().isEmpty()) {
                 list.add(new RemainderTooltipComponent(this));
             }
+        }
+        return list;
+    }
+
+    @Override
+    public Te
