@@ -125,4 +125,5 @@ public class EntityEmiStack extends EmiStack {
         return entity != null ? entity.getName() : EmiPort.literal("yet another missingno");
     }
 
-    public static void renderEntity(int x, int y, dou
+    public static void renderEntity(int x, int y, double size, LivingEntity entity) {
+        MinecraftClient client
