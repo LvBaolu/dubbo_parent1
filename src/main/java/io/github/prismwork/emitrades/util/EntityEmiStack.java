@@ -131,4 +131,6 @@ public class EntityEmiStack extends EmiStack {
         float width = 1920;
         float height = 1080;
         Screen screen = client.currentScreen;
-        if (scree
+        if (screen != null) {
+            width = screen.width;
+  
