@@ -126,4 +126,5 @@ public class EntityEmiStack extends EmiStack {
     }
 
     public static void renderEntity(int x, int y, double size, LivingEntity entity) {
-        MinecraftClient client
+        MinecraftClient client = MinecraftClient.getInstance();
+        Mouse mouse = client.mo
