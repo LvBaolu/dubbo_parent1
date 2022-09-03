@@ -129,4 +129,6 @@ public class EntityEmiStack extends EmiStack {
         MinecraftClient client = MinecraftClient.getInstance();
         Mouse mouse = client.mouse;
         float width = 1920;
-        float height = 1080
+        float height = 1080;
+        Screen screen = client.currentScreen;
+        if (scree
