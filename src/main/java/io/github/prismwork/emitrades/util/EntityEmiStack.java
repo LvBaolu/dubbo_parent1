@@ -135,4 +135,5 @@ public class EntityEmiStack extends EmiStack {
             width = screen.width;
             height = screen.height;
         }
-        float mous
+        float mouseX = (float) ((width + 51) - mouse.getX());
+        float mouseY = 
