@@ -141,4 +141,5 @@ public class EntityEmiStack extends EmiStack {
         float g = (float)Math.atan(mouseY / 40.0F);
         MatrixStack matrixStack = RenderSystem.getModelViewStack();
         matrixStack.push();
-        matrixStack.translate(x, y, 1050.
+        matrixStack.translate(x, y, 1050.0);
+        matrixStack.scale(1.0F, 1.0F, -1.0F);
