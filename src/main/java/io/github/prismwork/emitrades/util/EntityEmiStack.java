@@ -147,4 +147,5 @@ public class EntityEmiStack extends EmiStack {
         MatrixStack matrixStack2 = new MatrixStack();
         matrixStack2.translate(0.0, 0.0, 1000.0);
         matrixStack2.scale((float) size, (float) size, (float) size);
-        Quat
+        Quaternionf quaternion = new Quaternionf().rotateZ(3.1415927F);
+      
