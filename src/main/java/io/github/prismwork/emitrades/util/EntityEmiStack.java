@@ -155,4 +155,5 @@ public class EntityEmiStack extends EmiStack {
         float i = entity.getYaw();
         float j = entity.getPitch();
         float k = entity.prevHeadYaw;
-        float l = ent
+        float l = entity.headYaw;
+        entity.bodyYaw = 180.0F 
