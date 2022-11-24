@@ -159,4 +159,6 @@ public class EntityEmiStack extends EmiStack {
         entity.bodyYaw = 180.0F + f * 20.0F;
         entity.setYaw(180.0F + f * 40.0F);
         entity.setPitch(-g * 20.0F);
-        entity.headYaw = entity.getYaw()
+        entity.headYaw = entity.getYaw();
+        entity.prevHeadYaw = entity.getYaw();
+        Di
