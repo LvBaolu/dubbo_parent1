@@ -161,4 +161,5 @@ public class EntityEmiStack extends EmiStack {
         entity.setPitch(-g * 20.0F);
         entity.headYaw = entity.getYaw();
         entity.prevHeadYaw = entity.getYaw();
-        Di
+        DiffuseLighting.method_34742();
+        EntityRenderDispatc
