@@ -163,4 +163,5 @@ public class EntityEmiStack extends EmiStack {
         entity.prevHeadYaw = entity.getYaw();
         DiffuseLighting.method_34742();
         EntityRenderDispatcher entityRenderDispatcher = MinecraftClient.getInstance().getEntityRenderDispatcher();
-        quaternion2.conjuga
+        quaternion2.conjugate();
+        entityRenderDispatcher.setRotation(quaternion2
