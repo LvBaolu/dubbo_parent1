@@ -167,4 +167,4 @@ public class EntityEmiStack extends EmiStack {
         entityRenderDispatcher.setRotation(quaternion2);
         entityRenderDispatcher.setRenderShadows(false);
         VertexConsumerProvider.Immediate immediate = MinecraftClient.getInstance().getBufferBuilders().getEntityVertexConsumers();
-        RenderSyst
+        RenderSystem.runAsFancy(() -> entityRenderDispatcher.re
