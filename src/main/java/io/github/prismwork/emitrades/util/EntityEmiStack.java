@@ -169,4 +169,5 @@ public class EntityEmiStack extends EmiStack {
         VertexConsumerProvider.Immediate immediate = MinecraftClient.getInstance().getBufferBuilders().getEntityVertexConsumers();
         RenderSystem.runAsFancy(() -> entityRenderDispatcher.render(entity, 0.0, 0.0, 0.0, 0.0F, 1.0F, matrixStack2, immediate, 15728880));
         immediate.draw();
-        entityRen
+        entityRenderDispatcher.setRenderShadows(true);
+        entity
