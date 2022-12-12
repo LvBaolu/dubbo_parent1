@@ -172,4 +172,6 @@ public class EntityEmiStack extends EmiStack {
         entityRenderDispatcher.setRenderShadows(true);
         entity.bodyYaw = h;
         entity.setYaw(i);
-        entity.setPitch(j
+        entity.setPitch(j);
+        entity.prevHeadYaw = k;
+        entity.headYa
