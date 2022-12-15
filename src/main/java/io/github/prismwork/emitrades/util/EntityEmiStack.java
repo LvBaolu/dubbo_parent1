@@ -174,4 +174,6 @@ public class EntityEmiStack extends EmiStack {
         entity.setYaw(i);
         entity.setPitch(j);
         entity.prevHeadYaw = k;
-        entity.headYa
+        entity.headYaw = l;
+        matrixStack.pop();
+        RenderSystem.appl
