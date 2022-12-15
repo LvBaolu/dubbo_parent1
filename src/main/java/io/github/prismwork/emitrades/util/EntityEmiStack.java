@@ -177,4 +177,7 @@ public class EntityEmiStack extends EmiStack {
         entity.headYaw = l;
         matrixStack.pop();
         RenderSystem.applyModelViewMatrix();
-        DiffuseLighting.enableGuiDepthLightin
+        DiffuseLighting.enableGuiDepthLighting();
+    }
+
+    public static void rende
