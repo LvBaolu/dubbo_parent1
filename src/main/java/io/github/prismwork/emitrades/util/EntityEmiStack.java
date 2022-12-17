@@ -180,4 +180,4 @@ public class EntityEmiStack extends EmiStack {
         DiffuseLighting.enableGuiDepthLighting();
     }
 
-    public static void rende
+    public static void renderEntity(int x, int y, double size, Entity entity
