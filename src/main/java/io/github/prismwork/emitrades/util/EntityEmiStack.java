@@ -180,4 +180,5 @@ public class EntityEmiStack extends EmiStack {
         DiffuseLighting.enableGuiDepthLighting();
     }
 
-    public static void renderEntity(int x, int y, double size, Entity entity
+    public static void renderEntity(int x, int y, double size, Entity entity) {
+        MinecraftClient client = MinecraftClient.getIns
