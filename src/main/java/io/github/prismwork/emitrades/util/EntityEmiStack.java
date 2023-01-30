@@ -185,4 +185,5 @@ public class EntityEmiStack extends EmiStack {
         Mouse mouse = client.mouse;
         float w = 1920;
         float h = 1080;
-        Screen sc
+        Screen screen = client.currentScreen;
+        if (scre
