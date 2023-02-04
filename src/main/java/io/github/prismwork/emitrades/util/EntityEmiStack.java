@@ -188,4 +188,6 @@ public class EntityEmiStack extends EmiStack {
         Screen screen = client.currentScreen;
         if (screen != null) {
             w = screen.width;
-            h 
+            h = screen.height;
+        }
+        float mouseX =
