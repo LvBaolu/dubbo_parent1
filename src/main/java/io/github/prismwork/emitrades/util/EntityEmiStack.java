@@ -192,4 +192,5 @@ public class EntityEmiStack extends EmiStack {
         }
         float mouseX = (float) ((w + 51) - mouse.getX());
         float mouseY = (float) ((h + 75 - 50) - mouse.getY());
-        float f = (float)Mat
+        float f = (float)Math.atan(mouseX / 40.0F);
+        float g = (float)Ma
