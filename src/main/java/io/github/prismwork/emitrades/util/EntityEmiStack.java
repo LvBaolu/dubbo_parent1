@@ -195,4 +195,5 @@ public class EntityEmiStack extends EmiStack {
         float f = (float)Math.atan(mouseX / 40.0F);
         float g = (float)Math.atan(mouseY / 40.0F);
         MatrixStack matrixStack = RenderSystem.getModelViewStack();
-    
+        matrixStack.push();
+        matrixStack.translate(x,
