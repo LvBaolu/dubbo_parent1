@@ -199,4 +199,5 @@ public class EntityEmiStack extends EmiStack {
         matrixStack.translate(x, y, 1050.0);
         matrixStack.scale(1.0F, 1.0F, -1.0F);
         RenderSystem.applyModelViewMatrix();
-        Matri
+        MatrixStack matrixStack2 = new MatrixStack();
+        matrix
