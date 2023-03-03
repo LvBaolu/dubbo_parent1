@@ -208,4 +208,5 @@ public class EntityEmiStack extends EmiStack {
         matrixStack2.multiply(quaternion);
         float i = entity.getYaw();
         float j = entity.getPitch();
-        entity.setYaw
+        entity.setYaw(180.0F + f * 40.0F);
+        entity.setPitch(-g * 20.0F);
