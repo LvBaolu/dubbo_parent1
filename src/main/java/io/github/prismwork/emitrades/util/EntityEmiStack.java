@@ -214,4 +214,5 @@ public class EntityEmiStack extends EmiStack {
         EntityRenderDispatcher entityRenderDispatcher = MinecraftClient.getInstance().getEntityRenderDispatcher();
         quaternion2.conjugate();
         entityRenderDispatcher.setRotation(quaternion2);
-        entityRenderDispatcher.
+        entityRenderDispatcher.setRenderShadows(false);
+        VertexConsumerProvider.Im
