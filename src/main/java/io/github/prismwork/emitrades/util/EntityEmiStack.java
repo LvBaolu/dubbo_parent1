@@ -212,4 +212,5 @@ public class EntityEmiStack extends EmiStack {
         entity.setPitch(-g * 20.0F);
         DiffuseLighting.method_34742();
         EntityRenderDispatcher entityRenderDispatcher = MinecraftClient.getInstance().getEntityRenderDispatcher();
-        quaternion2
+        quaternion2.conjugate();
+        entityRenderDispatcher.setRot
