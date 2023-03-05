@@ -221,4 +221,5 @@ public class EntityEmiStack extends EmiStack {
         entityRenderDispatcher.setRenderShadows(true);
         entity.setYaw(i);
         entity.setPitch(j);
-        matrix
+        matrixStack.pop();
+        RenderSystem.applyModelViewMatrix(
