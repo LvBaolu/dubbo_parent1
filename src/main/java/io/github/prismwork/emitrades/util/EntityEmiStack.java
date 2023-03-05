@@ -227,4 +227,8 @@ public class EntityEmiStack extends EmiStack {
     }
 
     public static class EntityEntry extends Entry<Entity> {
-        public EntityEntry(Entity value) 
+        public EntityEntry(Entity value) {
+            super(value);
+        }
+
+        @Ove
