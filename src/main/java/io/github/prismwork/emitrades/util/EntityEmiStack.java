@@ -226,4 +226,5 @@ public class EntityEmiStack extends EmiStack {
         DiffuseLighting.enableGuiDepthLighting();
     }
 
-    public static class EntityEntry extends Ent
+    public static class EntityEntry extends Entry<Entity> {
+        public EntityEntry(Entity value) 
