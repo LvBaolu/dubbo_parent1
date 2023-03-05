@@ -223,4 +223,7 @@ public class EntityEmiStack extends EmiStack {
         entity.setPitch(j);
         matrixStack.pop();
         RenderSystem.applyModelViewMatrix();
-        DiffuseLighting.enableGuiDepthLighting()
+        DiffuseLighting.enableGuiDepthLighting();
+    }
+
+    public static class EntityEntry extends Ent
