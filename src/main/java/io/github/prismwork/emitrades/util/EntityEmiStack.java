@@ -231,4 +231,5 @@ public class EntityEmiStack extends EmiStack {
             super(value);
         }
 
-        @Ove
+        @Override
+        public Class<? extends Entity>
