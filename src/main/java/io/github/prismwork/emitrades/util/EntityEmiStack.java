@@ -233,4 +233,7 @@ public class EntityEmiStack extends EmiStack {
 
         @Override
         public Class<? extends Entity> getType() {
-            return getValue().getType().ge
+            return getValue().getType().getBaseClass();
+        }
+    }
+}
