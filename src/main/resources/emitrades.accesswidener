@@ -4,4 +4,5 @@ accessWidener   v1  named
 accessible field net/minecraft/village/TradeOffers$BuyForOneEmeraldFactory buy Lnet/minecraft/item/Item;
 accessible field net/minecraft/village/TradeOffers$BuyForOneEmeraldFactory price I
 accessible field net/minecraft/village/TradeOffers$SellItemFactory sell Lnet/minecraft/item/ItemStack;
-accessible field net/minecraft/village/TradeOffers$Se
+accessible field net/minecraft/village/TradeOffers$SellItemFactory price I
+accessible field net/minecraft/vi
