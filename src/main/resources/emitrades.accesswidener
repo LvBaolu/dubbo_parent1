@@ -6,4 +6,5 @@ accessible field net/minecraft/village/TradeOffers$BuyForOneEmeraldFactory price
 accessible field net/minecraft/village/TradeOffers$SellItemFactory sell Lnet/minecraft/item/ItemStack;
 accessible field net/minecraft/village/TradeOffers$SellItemFactory price I
 accessible field net/minecraft/village/TradeOffers$SellItemFactory count I
-accessible field net/minecraft/village/TradeOffers$SellSuspiciousStewFactory e
+accessible field net/minecraft/village/TradeOffers$SellSuspiciousStewFactory effect Lnet/minecraft/entity/effect/StatusEffect;
+acc
