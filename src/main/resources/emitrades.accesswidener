@@ -5,4 +5,5 @@ accessible field net/minecraft/village/TradeOffers$BuyForOneEmeraldFactory buy L
 accessible field net/minecraft/village/TradeOffers$BuyForOneEmeraldFactory price I
 accessible field net/minecraft/village/TradeOffers$SellItemFactory sell Lnet/minecraft/item/ItemStack;
 accessible field net/minecraft/village/TradeOffers$SellItemFactory price I
-accessible field net/minecraft/vi
+accessible field net/minecraft/village/TradeOffers$SellItemFactory count I
+accessible field net/min
