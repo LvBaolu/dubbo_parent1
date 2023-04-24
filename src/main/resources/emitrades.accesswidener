@@ -7,4 +7,4 @@ accessible field net/minecraft/village/TradeOffers$SellItemFactory sell Lnet/min
 accessible field net/minecraft/village/TradeOffers$SellItemFactory price I
 accessible field net/minecraft/village/TradeOffers$SellItemFactory count I
 accessible field net/minecraft/village/TradeOffers$SellSuspiciousStewFactory effect Lnet/minecraft/entity/effect/StatusEffect;
-acc
+accessible field net/minecraft/village/TradeOffers$Se
