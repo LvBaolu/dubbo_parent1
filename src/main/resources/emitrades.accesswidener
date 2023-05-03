@@ -12,4 +12,5 @@ accessible field net/minecraft/village/TradeOffers$ProcessItemFactory secondBuy 
 accessible field net/minecraft/village/TradeOffers$ProcessItemFactory sell Lnet/minecraft/item/ItemStack;
 accessible field net/minecraft/village/TradeOffers$ProcessItemFactory secondCount I
 accessible field net/minecraft/village/TradeOffers$ProcessItemFactory price I
-accessible field net/minecraft/village/TradeOffers$ProcessItem
+accessible field net/minecraft/village/TradeOffers$ProcessItemFactory sellCount I
+accessible field net/minecraft/village/T
