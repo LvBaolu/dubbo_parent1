@@ -11,4 +11,4 @@ accessible field net/minecraft/village/TradeOffers$SellSuspiciousStewFactory dur
 accessible field net/minecraft/village/TradeOffers$ProcessItemFactory secondBuy Lnet/minecraft/item/ItemStack;
 accessible field net/minecraft/village/TradeOffers$ProcessItemFactory sell Lnet/minecraft/item/ItemStack;
 accessible field net/minecraft/village/TradeOffers$ProcessItemFactory secondCount I
-accessible
+accessible field net/minecraft/village/TradeOffers$ProcessItemFactory pr
