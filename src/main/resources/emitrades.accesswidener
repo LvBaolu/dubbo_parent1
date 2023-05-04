@@ -13,4 +13,4 @@ accessible field net/minecraft/village/TradeOffers$ProcessItemFactory sell Lnet/
 accessible field net/minecraft/village/TradeOffers$ProcessItemFactory secondCount I
 accessible field net/minecraft/village/TradeOffers$ProcessItemFactory price I
 accessible field net/minecraft/village/TradeOffers$ProcessItemFactory sellCount I
-accessible field net/minecraft/village/T
+accessible field net/minecraft/village/TradeOffers$SellEnchantedToolFactory tool L
