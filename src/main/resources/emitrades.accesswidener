@@ -15,4 +15,4 @@ accessible field net/minecraft/village/TradeOffers$ProcessItemFactory price I
 accessible field net/minecraft/village/TradeOffers$ProcessItemFactory sellCount I
 accessible field net/minecraft/village/TradeOffers$SellEnchantedToolFactory tool Lnet/minecraft/item/ItemStack;
 accessible field net/minecraft/village/TradeOffers$SellEnchantedToolFactory basePrice I
-accessible field net/minecraft/vi
+accessible field net/minecraft/village/TradeOffers$SellPotionHoldingItemFactor
