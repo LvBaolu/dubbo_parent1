@@ -17,4 +17,4 @@ accessible field net/minecraft/village/TradeOffers$SellEnchantedToolFactory tool
 accessible field net/minecraft/village/TradeOffers$SellEnchantedToolFactory basePrice I
 accessible field net/minecraft/village/TradeOffers$SellPotionHoldingItemFactory sell Lnet/minecraft/item/ItemStack;
 accessible field net/minecraft/village/TradeOffers$SellPotionHoldingItemFactory sellCount I
-accessible field net/minecraft/vil
+accessible field net/minecraft/village/TradeOffers$SellPotionHoldingItemFactory price I
