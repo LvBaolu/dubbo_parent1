@@ -23,4 +23,4 @@ accessible field net/minecraft/village/TradeOffers$SellPotionHoldingItemFactory 
 accessible field net/minecraft/village/TradeOffers$SellMapFactory price I
 accessible field net/minecraft/village/TradeOffers$SellDyedArmorFactory sell Lnet/minecraft/item/Item;
 accessible field net/minecraft/village/TradeOffers$SellDyedArmorFactory price I
-accessible field net/minecraft/village/T
+accessible field net/minecraft/village/TradeOffers$TypeAwareBuyForOneEmeraldFactory m
