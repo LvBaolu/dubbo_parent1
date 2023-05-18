@@ -4,4 +4,8 @@
   "version": "${version}",
 
   "name": "EMI Trades",
-  "description": "Vi
+  "description": "Villager trades for EMI.",
+  "authors": [
+    "pkstDev"
+  ],
+  "c
