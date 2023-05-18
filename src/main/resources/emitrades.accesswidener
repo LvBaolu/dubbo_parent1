@@ -22,4 +22,4 @@ accessible field net/minecraft/village/TradeOffers$SellPotionHoldingItemFactory 
 accessible field net/minecraft/village/TradeOffers$SellPotionHoldingItemFactory secondCount I
 accessible field net/minecraft/village/TradeOffers$SellMapFactory price I
 accessible field net/minecraft/village/TradeOffers$SellDyedArmorFactory sell Lnet/minecraft/item/Item;
-accessib
+accessible field net/minecraft/village/TradeOffers$Sell
