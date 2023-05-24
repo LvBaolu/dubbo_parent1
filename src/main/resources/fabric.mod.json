@@ -13,4 +13,7 @@
   },
 
   "license": "MIT",
-  "icon":
+  "icon": "assets/emitrades/icon.png",
+
+  "environment": "client",
+  "
