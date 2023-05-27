@@ -16,4 +16,6 @@
   "icon": "assets/emitrades/icon.png",
 
   "environment": "client",
-  "
+  "entrypoints": {
+    "emi": [
+      "io.github.p
