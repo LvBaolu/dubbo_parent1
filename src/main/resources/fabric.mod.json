@@ -18,4 +18,7 @@
   "environment": "client",
   "entrypoints": {
     "emi": [
-      "io.github.p
+      "io.github.prismwork.emitrades.EMITradesPlugin"
+    ]
+  },
+  "accessWidener" 
