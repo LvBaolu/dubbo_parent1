@@ -21,4 +21,7 @@
       "io.github.prismwork.emitrades.EMITradesPlugin"
     ]
   },
-  "accessWidener" 
+  "accessWidener" : "emitrades.accesswidener",
+
+  "depends": {
+    "fabr
