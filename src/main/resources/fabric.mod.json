@@ -24,4 +24,6 @@
   "accessWidener" : "emitrades.accesswidener",
 
   "depends": {
-    "fabr
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "
